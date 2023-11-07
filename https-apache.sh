@@ -154,7 +154,7 @@ sudo cat <<'EOF' > /etc/apache2/sites-available/secuirtycity.conf
 </VirtualHost>
 EOF
 ##add your secure website
-sudo cp -r /var/www/html -t /var/www/securitycity.info
+sudo cp -r /var/www/html/* -t /var/www/securitycity.info
 
 ##Enable the config files
 sudo a2ensite securitycity.conf
